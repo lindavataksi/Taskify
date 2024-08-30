@@ -1,0 +1,26 @@
+// let name: any; //any type of val, but not recc cause then why use tsx
+// let age: number | string; //can be either string or number
+// let isStudent: boolean; 
+// let hobbies: string[]; //arr of string
+// let role:[number,string] //tuple
+
+// type Person = {
+//   name: string;
+//   age: number;
+// };
+// let person: Person = {
+//   name: "Linda",
+//   age: 23,
+// };
+
+// let lotsOfPeople: Person[]; //arr of person object
+// //define an object
+
+// // define a function
+// let printName: (name: string) => void;
+
+// // function printName(name: string) {
+// //   console.log(name)
+// // }
+
+// // printName("Linda")

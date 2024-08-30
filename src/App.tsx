@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// auto import by pressing ctrl space
+import InputField from './components/InputField';
 
-function App() {
+// App -cosnt arrow function instead of function
+// App type is defined as a react functional component
+const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <span className='heading'> Taskify</span>
+      <InputField />
     </div>
   );
 }
