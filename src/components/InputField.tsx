@@ -11,13 +11,12 @@ interface Props {
 
  const InputField:React.FC <Props>= ({todo, setTodo, handleAdd}) => {
   return (
-    <form action="" className="input">
+    <form action="" className="input" onSubmit = {handleAdd}>
         <input 
         value = {todo}
         onChange={
             (e) => setTodo(e.target.value)
         }
-        onSubmit = {handleAdd}
         type='input' placeholder="Enter a task" className='input_box' />
         <button className="input_submit" type='submit'> Go</button>
     </form>
@@ -25,3 +24,6 @@ interface Props {
 }
 
 export default InputField
+
+
+

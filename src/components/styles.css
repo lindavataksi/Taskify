@@ -40,3 +40,43 @@
 .input_submit:hover {
     background-color: #388ae2;
 }
+
+.toDoListElements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: yellow;
+    width: 400px;
+    /* height: 30px; */
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+.toDoListElements p{
+     margin: 0px;
+     font-size: 1.5rem
+}
+
+.toDoListElements_submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.toDoListElements_button {
+    border:none;
+    background: none;
+    margin-right: 10px;
+    padding: 0px;
+    cursor: pointer;
+    transform: transform 0.8s ease;
+}
+
+.toDoListElements_button:hover {
+    transform: scale(1.1);
+}
+.toDoListElements_button:active {
+    transform: scale(1.05);
+}
